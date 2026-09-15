@@ -1,0 +1,25 @@
+# boolean variables and if else
+
+yes = True # a boolean variable with value true
+knot = "true" # not a boolean variable; it's just a string
+
+no = False # a boolean variable with value False
+noway = "FAlse" # not a boolean variable; another string
+
+# conditional
+
+# pseudocode - English language description of what we want the code to do
+# could be French, Chinese, German if that's what you speak
+
+# write Python that asks if person is 18 or over
+# if the person is 18 or over, tell the person it is vital to vote in elections
+# if the person is not yet 18, tell the person civic involvement is important
+# but you can't vote yet
+
+age = int(input("Please enter your age"))
+
+if (age >= 18):  # if statement - needs a Boolean expression
+    print(" it is vital to vote in elections. Your vote counts.")
+else:  # if that boolean evaluated to False
+    print("Civic involvement is important, but you are too young to vote.")
+
